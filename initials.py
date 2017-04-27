@@ -10,5 +10,5 @@ def get_initials(fullname):
         initials += name[0].upper()  # append the initial
 
     return initials
-from test import testEqual
-testEqual(get_initials("Haile Asnake Engidayehu"), "HAE")
+#from test import testEqual
+print(get_initials("Haile Asnake Engidayehu")) # correct answer is HAE
